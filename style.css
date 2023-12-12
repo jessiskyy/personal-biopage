@@ -55,16 +55,17 @@ h1 {
 h2 {
     display: block;
     font-size: 39px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-style: italic;
     font-family: ivy-presto;
+    text-align: center;
 }
 
 p {
     display: block;
     font-size: 30px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: ivy-presto;
     text-align: left-align;
@@ -85,28 +86,23 @@ p {
     text-align: center;
     position: absolute;
     top: 70%;
-    left: 40%;
+    left: 50%;
     transform: translateX(-50%);
-    font-size: ;
+    
     
 }
 
 img {
     display: block;
     float: right;
-    position: absolute;
-    right: 0%;
+    position: absolute;         
+    right: 3%;
     height: 500px;
     width: 300px;
     top : 20%;
     bottom: 30%;
-    margin: 10px 0px 10px 0px;
+    
 }
 
-#about header {
-    font-weight: 300;
-    font-size: 25px;
-    color: white;
-}
 
 
