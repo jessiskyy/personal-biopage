@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="javascript.js">
+
+    </script>
 </head>
 <body>
+    <header>
+        <div>
+            <h1>Jessica Maddux</h1>
+        </div>
+    
+        <div style="text-align: right;" class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+
+    <main>
+
+        <h2 id="contactme">Contact Me:</h2>
+
+        <div class="flex">
+
+            <form class="purchase-form" action="success.html" a href="success.html">
+
+                <label for="name">Name:</label> 
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="freeform">Message</label>
+                <textarea id="freeform" name="freeform" rows="4" cols="50">
+                </textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+        <div class="contact">
+            <img src="contact-phone-notepad.jpg" height="auto" width="800">
+        </div> 
+    
+    </main>
     
 </body>
+<!--   
+<div class="contact">
+    <img src="contact-phone-notepad.jpg" width="800px" height="auto">
+</div>
+-->
+
 </html>
