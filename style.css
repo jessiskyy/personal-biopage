@@ -47,7 +47,7 @@ h1 {
     color: black;
 }
 
-.topnav a.active {
+.topnav a:active {
     background-color: #ddd;
     color: black;
 }
